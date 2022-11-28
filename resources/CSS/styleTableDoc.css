@@ -29,3 +29,13 @@ font-size: 11px;
 color: #000000;
 vertical-align: top;
 }
+td.top 
+{
+    background-image: url(../top_bg.PNG);
+    height: 165px;}
+    td.logo {
+    width: 100%;
+    text-align: right;
+    padding-top: 55px;
+    padding-right: 55px;
+}
