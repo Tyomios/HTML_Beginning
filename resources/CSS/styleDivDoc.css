@@ -157,11 +157,11 @@ a
 }
 #members li a:hover 
 {
-    color: #49729c;
+    color: #49729c; 
 }
 #news 
 {
-    background: #ffc;
+    background: rgba(61, 68, 88, 0.677);
     border-radius: 5px;
     width: 385px;
     color: #665;
@@ -210,10 +210,11 @@ a
 }
 #footer 
 {
-    background: #0066CC;
+    background: #0d1b28;
     position: absolute;
-    width: 960px;
-    margin-top: 1000px;
+    width: 100%;
+    top: 1280px;
+    bottom: 0px;
     height: 80px;
     color: #fff;
     font-size: 18px;
