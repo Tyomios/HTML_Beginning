@@ -13,12 +13,10 @@ body
 }
 #container
 {
-    width: 960px;
-    height: 1200px;
+    width: 1050px;
+    height: 100%;
     margin: 0 auto;
-    border: 1px solid #999;
-    padding-bottom: 70px;
-    background: rgb(192, 188, 188)
+    float: left;
 }
 #header 
 {
@@ -46,8 +44,8 @@ body
 }
 #nav 
 {
-    background: url(../nav-bg.JPG) repeat-x;
-    color: rgb(193, 72, 72);
+    background-color: rgb(24, 39, 53);
+    color: rgb(111, 128, 172);
     font-size: 80%;
     font-weight: bold;
     line-height: 3.8em;
@@ -64,11 +62,11 @@ body
 }
 #nav li a
 {
-    color: #353535;
+    color: #93949c;
 }
 #nav li a:hover
 {
-    color: rgb(162, 104, 104);
+    color: rgb(124, 134, 199);
 }
 a 
 {
@@ -76,103 +74,68 @@ a
 }
 #text 
 {
-    width: 545px;
     font-size: .8em;
-    color: #333;
-    margin: 10px auto;
-    float: left;
+    color: rgb(147, 186, 241);
+    margin: 10px 0 0 0 ;
 }
 #text p
 {
+    margin: 0 0px 0 40px;
+    font-size: 14px;
     text-align: justify;
-    text-indent: 1.5em;
-    margin: 0;
-    padding: 0 15px;
 }
-#text a 
+#text h1
 {
-    color: rgb(117, 149, 214);
+    color: rgb(164, 178, 255);
+    margin: 20px 0 40px 40px;
+    text-align: left;
 }
-#text a:hover
+#data
 {
-    color: rgb(49, 104, 160);   
+    margin: 0 0 0 0px;
+    font-size: 14px;
+    text-align: justify;
 }
-.img1 
+#data h1
 {
-    width: 200px;
-    height: 285px;
-    margin: 40px 0 0 0px;
-    float: right;
-    border-radius: 10px;
-    border: 1px solid #999;
+    color: rgb(164, 178, 255);
+    margin: 30px 20px 40px 40px;
+    font-size: 24px;
+    text-align: left;
 }
-.img2
+#data table
 {
-    width: 300px;
-    height: 200px;
-    margin: 10px 15px 0 15px;
-    float: left;
-    border-radius: 10px;
-    border: 1px solid rgb(219, 224, 248);
+    margin: 0 0 0 40px;
+    width: 400px;
+    height: 450px;
+    font-size: 14px;
+    text-align: justify;
 }
-.poloska 
+#data tr
 {
-    width: 300px;
-    height: 23px;
-    margin: 10px 10px 0 15px;
-    float: left;
-}
-#members 
-{
-    margin: 55px 0 0 0;
-    width: 300px;
-    height: 100px;
-    float: right;
-}
-#members h2
-{
-    color: rgb(205, 147, 109);
-    font-size: 120%;
+    background-color: rgb(24, 39, 53);
+    color: rgb(111, 128, 172);
+    font-size: 80%;
     font-weight: bold;
+    line-height: 3.8em;
     text-align: center;
-}
-#members ol
-{
-    color: #999;
-    font-size: 120%;
-    margin: 10px 0 0 0 ;
-    float: left;
-    text-align: center;
-    list-style-type: none;
-}
-#members li 
-{
-    margin: 0 35px;
-
-}
-#members li a 
-{
-    margin: 2%;
-    color: #0066CC;
-}
-#members li a:hover 
-{
-    color: #49729c; 
+    border-radius: 20px;
 }
 #news 
 {
     background: rgba(61, 68, 88, 0.677);
-    border-radius: 5px;
-    width: 385px;
-    color: #665;
-    margin: 10px 5px;
+    width: 355px;
+    height: 1150px;
+    color: rgb(102, 117, 143);
+    margin: 0px 00px 0px 0px;
     float: right;
 }
 #news h3 
 {
-    color: rgb(62, 60, 59);
-    margin-top: 2%;
-    font-size: 120%;
+    color: rgb(128, 136, 161);
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
 }
@@ -196,7 +159,7 @@ a
     content: "ʘ ";
     margin: 2%;
     size: 24px;
-    color: #0066CC;
+    color: #6aa2db;
 }
 .news_input
 {
@@ -216,23 +179,19 @@ a
     top: 1280px;
     bottom: 0px;
     height: 80px;
-    color: #fff;
+    color: rgb(122, 131, 154);
     font-size: 18px;
 }
 #footer a 
 {
-    color: #ff0;
+    color: rgb(102, 116, 155);
 }
 #footer a:hover
 {
-    color: #f00;
+    color: rgb(96, 102, 139);
 }
 #footer p 
 {
     padding: 30px;
     text-align: center;
-}
-.clearfloat 
-{
-    clear: both;
 }
