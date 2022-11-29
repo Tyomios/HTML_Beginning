@@ -1,0 +1,199 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+body
+{
+    padding: 0 0 0;
+    background: rgb(255, 249, 221);
+    color: #333;
+    font-family: Verdana, Arial, Helvetica, sans-serif
+}
+#container
+{
+    width: 960px;
+    height: 1200px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    padding-bottom: 70px;
+    background: rgb(192, 188, 188)
+}
+#header 
+{
+    background: url(../header.JPG);
+    width: auto;
+    height: 170px;
+    margin: 0 auto;
+}
+#nav 
+{
+    background: url(../nav-bg.JPG) repeat-x;
+    color: rgb(193, 72, 72);
+    font-size: 80%;
+    font-weight: bold;
+    line-height: 3.8em;
+    text-align: center;
+}
+#nav ul
+{
+    list-style-type: none;
+}
+#nav li
+{
+    display: inline;
+    margin: 0 8px;
+}
+#nav li a
+{
+    color: #353535;
+}
+#nav li a:hover
+{
+    color: rgb(162, 104, 104);
+}
+a 
+{
+    text-decoration: none;
+}
+#text 
+{
+    width: 545px;
+    font-size: .8em;
+    color: #333;
+    margin: 10px auto;
+    float: left;
+}
+#text p
+{
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 0;
+    padding: 0 15px;
+}
+#text a 
+{
+    color: rgb(117, 149, 214);
+}
+#text a:hover
+{
+    color: rgb(49, 104, 160);   
+}
+.img1 
+{
+    width: 200px;
+    height: 285px;
+    margin: 40px 0 0 0px;
+    float: right;
+    border-radius: 10px;
+    border: 1px solid #999;
+}
+.img2
+{
+    width: 300px;
+    height: 200px;
+    margin: 10px 15px 0 15px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 224, 248);
+}
+.poloska 
+{
+    width: 300px;
+    height: 23px;
+    margin: 10px 10px 0 15px;
+    float: left;
+}
+#members 
+{
+    margin: 55px 0 0 0;
+    width: 300px;
+    height: 100px;
+    float: right;
+}
+#members h2
+{
+    color: rgb(205, 147, 109);
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+}
+#members ol
+{
+    color: #999;
+    font-size: 120%;
+    margin: 10px 0 0 0 ;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+}
+#members li 
+{
+    margin: 0 35px;
+
+}
+#members li a 
+{
+    margin: 2%;
+    color: #0066CC;
+}
+#members li a:hover 
+{
+    color: #49729c;
+}
+#news 
+{
+    background: #ffc;
+    border-radius: 5px;
+    width: 385px;
+    color: #665;
+    margin: 10px 5px;
+    float: right;
+}
+#news h3 
+{
+    color: rgb(62, 60, 59);
+    margin-top: 2%;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: center;
+}
+#news ul
+{
+    list-style: url(../marker.JPG) inside;
+}
+#news li 
+{
+    font-size: 75%; 
+
+    padding: 5px 15px;
+    margin: 5px;
+}
+#footer 
+{
+    background: #0066CC;
+    position: absolute;
+    width: 960px;
+    margin-top: 1000px;
+    height: 80px;
+    color: #fff;
+    font-size: 18px;
+}
+#footer a 
+{
+    color: #ff0;
+}
+#footer a:hover
+{
+    color: #f00;
+}
+#footer p 
+{
+    padding: 30px;
+    text-align: center;
+}
+.clearfloat 
+{
+    clear: both;
+}
