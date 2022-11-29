@@ -12,8 +12,6 @@ td.text
 {
     width: 70%; height: 100%;
 }
-td.copyright {}
-td.bottommenu {}
 
 html, body { margin:0px; padding:0px; }
 table.main { border-collapse: collapse; }
@@ -29,8 +27,10 @@ td, input, select, textarea
 td.top 
 {
     background-image: url(../top_bg.PNG);
-    height: 165px;}
-    td.logo {
+    height: 165px;
+}
+td.logo 
+{
     width: 100%;
     text-align: right;
     padding-top: 55px;
@@ -175,5 +175,20 @@ input.submit
 select.input
 {
     width: 100%;
-}    
+}
+table.content 
+{
+    border-collapse: collapse;
+    margin: 6px 8px 8px 12px;
+}
+td.image 
+{
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+img.border 
+{
+    border: 1px solid silver;
+}
     
