@@ -27,7 +27,8 @@
     <div id="container">
         <div id="text">
             <h1>Сегодня в программе</h1>
-            <p>С другой стороны укрепление и развитие структуры обеспечивает участие в формировании систем массового участия. Товарищи! 
+            <p>
+                С другой стороны укрепление и развитие структуры обеспечивает участие в формировании систем массового участия. Товарищи! 
                 консультация с широким активом позволяет выполнять важные задания по разработке систем массового участия.
                 Разнообразный и богатый опыт консультация с широким активом обеспечивает широкому кругу.
             </p>
@@ -79,12 +80,11 @@
     <div id="news">
         <h3>Свежие новости:</h3>
             <ul>
-                <li>
-                    Lorem ipsum dolor,
-                     sit amet consectetur adipisicing elit.
-                      Modi blanditiis corrupti,
-                       provident iure adipisci repudiandae vero odio enim nam.
-                        Quas hic dicta iusto laborum eius ex officia dolore sapiente ullam?
+                <li id="fNewsEntity">
+                    <script>
+                        var news = document.getElementById("fNewsEntity");
+                        news.innerHTML ='До Нового года осталось ' + getLastNewYearDays() + ' дней!';
+                    </script>
                 <br>
                 <input id="fNewsBtn" class="news_input" type="button" value="перейти"
                 onmouseover="setMouseOverBntView('fNewsBtn');"
