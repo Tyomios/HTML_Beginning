@@ -37,3 +37,18 @@ function animateNumbersChanging(id, start, end, duration) {
         }
     }, stepTime);
 }
+
+function getLastNewYearDays() {
+    var today = new Date();
+    var newYear = new Date(today.getFullYear() + 1, 0, 1);
+    var dd = today.getDate();
+    var mm = today.getMonth() + 1;
+    var monthCountLeft = 12 - mm;
+    if(monthCountLeft == 0)
+    {
+        return 31 - dd;
+    }
+
+    var days = Math.ceil((newYear.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+    return days;
+}
