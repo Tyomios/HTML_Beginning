@@ -52,3 +52,23 @@ function getLastNewYearDays() {
     var days = Math.ceil((newYear.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
     return days;
 }
+
+function getRandomIntagerArray(length = 10, min = -100, max = 100) {
+    var arr = [];
+    for(var i = 0; i < length; i++)
+    {
+        arr.push(Math.round(Math.random() * (max - min) + min));
+    }
+
+    return arr;
+}
+
+function calculateSumOfArray(arr) {
+    var sum = 0;
+    for(var i = 0; i < arr.length; i++)
+    {
+        sum += arr[i];
+    }
+
+    return Math.round(sum);
+}

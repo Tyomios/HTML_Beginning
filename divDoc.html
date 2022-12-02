@@ -101,12 +101,13 @@
             onmouseover="setMouseOverBntView('sNewsBtn');"
             onmouseleave="setNewsBtnView('sNewsBtn');">
             </li>
-            <li>
-                Lorem ipsum dolor,
-                 sit amet consectetur adipisicing elit.
-                  Modi blanditiis corrupti,
-                   provident iure adipisci repudiandae vero odio enim nam.
-                    Quas hic dicta iusto laborum eius ex officia dolore sapiente ullam?
+            <li id="thirdNewsEntity">
+                <script>
+                    var news = document.getElementById("thirdNewsEntity");
+                    var numbs = getRandomIntagerArray();
+                    news.innerHTML = 'Если сложить ' + String(numbs) + ' то получим ' + calculateSumOfArray(numbs);
+                </script>
+            
             <br>
             <input class="news_input" type="button"  value="перейти">
             </li>
