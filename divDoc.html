@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Верстка блоками</title>
     <link href="resources/CSS/styleDivDoc.css" rel="stylesheet" type="text/css"/>
+    <script src="scripts/divDocFuncs.js"></script>
 </head>
 <body>
     <div id="header">
@@ -82,7 +83,9 @@
                        provident iure adipisci repudiandae vero odio enim nam.
                         Quas hic dicta iusto laborum eius ex officia dolore sapiente ullam?
                 <br>
-                <input class="news_input" type="button"  value="перейти">
+                <input id="fNewsBtn" class="news_input" type="button" value="перейти"
+                onmouseover="setMouseOverBntView('fNewsBtn');"
+                onmouseleave="setNewsBtnView('fNewsBtn');">
                 </li>
             <li>
                 Lorem ipsum dolor,
@@ -91,7 +94,9 @@
                    provident iure adipisci repudiandae vero odio enim nam.
                     Quas hic dicta iusto laborum eius ex officia dolore sapiente ullam?
             <br>
-            <input class="news_input" type="button"  value="перейти">
+            <input id="sNewsBtn" class="news_input" type="button"  value="перейти"
+            onmouseover="setMouseOverBntView('sNewsBtn');"
+            onmouseleave="setNewsBtnView('sNewsBtn');">
             </li>
             <li>
                 Lorem ipsum dolor,

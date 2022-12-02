@@ -124,7 +124,7 @@ a
 #news 
 {
     background: rgba(61, 68, 88, 0.677);
-    width: 355px;
+    width: 20%;
     height: 1150px;
     color: rgb(102, 117, 143);
     margin: 0px 00px 0px 0px;
@@ -147,12 +147,12 @@ a
 {
     font-size: 75%; 
     min-height: 40px;
-    max-height: 100px;
+    max-height: 250px;
     overflow: hidden;
     background-color: #353535;
     border-radius: 5px;
     padding: 5px 15px;
-    margin: 10px;
+    margin: 20px 10px;
 }
 #news li:before
 {
@@ -165,11 +165,22 @@ a
 {
     width: 30%;
     height: 24px;
+    margin: 10px 5px 0 5px;
     padding: 5px,0,0,0;
     float: right;
     background-color: #1b5085;
     border-radius: 4px;
     color: #82827f;
+}
+.news_input_mouse_over
+{
+    background-color: #4088cf;
+    cursor: pointer;
+    width: 35%;
+    height: 26px;
+    border-radius: 4px;
+    color: #cfe5e7;
+    float: right;
 }
 #footer 
 {
