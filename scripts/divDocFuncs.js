@@ -8,17 +8,6 @@ function setNewsBtnView(obj) {
     btn.className = "news_input";
 }
 
-// function updateUsersCount() {
-//     var usersData = document.getElementById("usersCount");
-//     var startCount = parseInt(usersData.innerHTML);
-//     while(startCount < 10000)
-//     {
-//         usersData.innerHTML = startCount;
-//         ++startCount;
-//     }
-
-// }
-
 function animateNumbersChanging(id, start, end, duration) {
     if (start === end) return;
 
@@ -71,4 +60,19 @@ function calculateSumOfArray(arr) {
     }
 
     return Math.round(sum);
+}
+
+
+function ConvertDivChildsToTreeView(divId)
+{
+    var div = document.getElementById(divId);
+    var treeView = document.getElementById("treeDiv");
+    var childs = div.childNodes;
+    for(var i = 0; i < childs.length; i++)
+    {
+        var li = document.createElement("li");
+        li.innerHTML = childs[i].innerHTML;
+        treeView.appendChild(li);
+        ConvertDivChildsToTreeView(childs[i].id);
+    }
 }

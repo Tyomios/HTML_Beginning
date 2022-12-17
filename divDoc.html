@@ -25,6 +25,9 @@
         </ul>
     </div>
     <div id="container">
+        <div id="treeDiv">
+
+        </div>
         <div id="text">
             <h1>Сегодня в программе</h1>
             <p>
@@ -150,4 +153,23 @@
         </p>
     </div>
 </body>
+<script defer>
+    function ConvertDivChildsToTreeView(divId)
+    {
+        var div = document.getElementById(divId);
+        var treeView = document.getElementById("treeDiv");
+        if(div.childNodes == null)
+            return;
+        var childs = div.childNodes;
+        for(var i = 0; i < childs.length; i++)
+        {
+            var li = document.createElement("li");
+            li.innerHTML = childs[i].innerHTML;
+            treeView.appendChild(li);
+            ConvertDivChildsToTreeView(childs[i].id);
+        }
+    }
+
+    ConvertDivChildsToTreeView("content");
+</script>
 </html>
