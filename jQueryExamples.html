@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>jQuery Examples</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("p").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="div1">
+        <h2>jQuery Examples</h2>
+        <p>jQuery is a fast and concise JavaScript Library created by John Resig in 2006.</p>
+        <p>jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.</p>
+        <p>jQuery is designed to change the way that you write JavaScript.</p>
+    </div>
+    <button id="btn1">hide paragraphs</button>
+</html>
